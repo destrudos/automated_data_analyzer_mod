@@ -1,0 +1,11 @@
+venv
+.ipynb_checkpoints
+__pycache__
+*.docx
+.~lock*
+dist/
+build/
+eda_report.egg-info
+.coverage*
+!.coveragerc
+htmlcov/

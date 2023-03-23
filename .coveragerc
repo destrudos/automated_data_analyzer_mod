@@ -1,0 +1,13 @@
+[run]
+branch = true
+concurrency = multiprocessing
+omit = 
+    eda_report/__main__.py
+    eda_report/gui.py
+parallel = true
+sigterm = true
+source = eda_report
+
+[report]
+fail_under = 85
+precision = 2
